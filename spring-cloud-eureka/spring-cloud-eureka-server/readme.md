@@ -2,7 +2,7 @@ Eureka是Netflix开源的一款提供服务注册和发现的产品，它提供�
 
 [SPRING INITIALIZR](https://start.spring.io/)在线生成  添加Eureka Server的依赖
 
-![eureka-architecture-overview](src/main/resources/static/images/eureka-architecture-overview.png "eureka-architecture-overview")
+![eureka-architecture-overview](https://github.com/wxpp/springCloudDemo/blob/master/spring-cloud-eureka/spring-cloud-eureka-server/src/main/resources/static/image/eureka-architecture-overview.png "eureka-architecture-overview")
 
 上图简要描述了Eureka的基本架构，由3个角色组成：
 
