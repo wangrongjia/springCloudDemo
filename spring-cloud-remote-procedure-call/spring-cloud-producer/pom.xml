@@ -42,6 +42,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+	<!-- 热启动 -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-devtools</artifactId>
+		    <optional>true</optional>
+		</dependency>
 	</dependencies>
 	
 	<dependencyManagement>
@@ -61,6 +67,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!-- 热启动支持 -->
+			    <configuration>
+			        	<fork>true</fork>
+			    </configuration>
 			</plugin>
 		</plugins>
 	</build>
